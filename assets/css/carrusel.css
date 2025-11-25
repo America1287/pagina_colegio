@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4ec; /* Fondo rosado claro */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.titulares h3 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.carrusel {
+    width: 100%;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background: rgba(164, 233, 236, 0.531);
+    position: relative;
+}
+
+.carrusel ul {
+    display: flex;
+    padding: 0px;
+    width: 300%;
+    list-style: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel li {
+    width: 400%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.carrusel h2 {
+    color: #ffffff; 
+}
+
+.carrusel p {
+    color: #333;
+}
+
+/* Botones de navegación */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
