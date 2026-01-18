@@ -1014,7 +1014,7 @@ section.video .left-content .main-button {
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  /* -webkit-backface-visibility: hidden; */
+  -webkit-backface-visibility: hidden;
 }
 
 .mfp-container {
@@ -1127,7 +1127,7 @@ button.mfp-arrow {
   cursor: pointer;
   background: transparent;
   border: 0;
-  /* -webkit-appearance: none; */
+  -webkit-appearance: none;
   display: block;
   outline: none;
   padding: 0;
