@@ -36,26 +36,22 @@
   </head>
 
   <body>
+    <!--Header-->
     <header class="main-header clearfix" role="header">
       <div class="logo">
-        <a id="header" href="#" style="font-size: large"
+        <a class="nombre" id="header" href="#"
           ><em>Institucion Educativa</em> Compartir</a
         >
-        <img
-          class="escudo"
-          src="assets/images/Imagen final.PNG"
-          width="50"
-          alt=""
-        />
       </div>
 
       <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
       <nav id="menu" class="main-nav" role="navigation">
         <ul class="main-menu">
           <li><a href="#section1">Inicio</a></li>
-          <li><a href="#section3">Eventos</a></li>
-          <li><a href="#section4">Institucional</a></li>
-          <li><a href="#section6">Ubicación</a></li>
+          <li><a href="#mision_vision">¿Quiénes somos?</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#institucional">Institucional</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
           <li><a href="...">Sistema RECREO</a></li>
         </ul>
       </nav>
@@ -72,13 +68,10 @@
 
       <div class="video-overlay header-text">
         <div class="caption">
+          <img class="escudo" src="assets/images/Imagen final.PNG" alt="" />
+
           <h6>"Construyendo calidad con eficiencia"</h6>
           <h2><em>Nuestro</em> Colegio</h2>
-          <div class="main-button">
-            <div class="scroll-to-section">
-              <a href="recreo.html">Descubre más</a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -106,7 +99,7 @@
                     primaria y bachillerato.
                   </p>
                   <div class="scroll-to-section">
-                    <a href="cursos.html">Más información.</a>
+                    <a href="#">Más información.</a>
                   </div>
                 </div>
               </div>
@@ -132,7 +125,7 @@
                     minutos entre el segundo y tercer bloque.
                   </p>
                   <div class="scroll-to-section">
-                    <a href="#section3">Detalles</a>
+                    <a href="horarios.html#horarios">Detalles</a>
                   </div>
                 </div>
               </div>
@@ -161,7 +154,11 @@
     </section>
 
     <!-- Misión, Visión y Símbolos institucionales -->
-    <section class="section why-us" data-section="section2">
+    <section
+      class="section why-us"
+      id="mision_vision"
+      data-section="mision_vision"
+    >
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -187,7 +184,7 @@
                     </div>
                     <div class="col-md-6">
                       <h3 style="color: white">Misión</h3>
-                      <p>
+                      <p style="text-align: justify">
                         La comunidad de la Institución Educativa Compartir
                         busca, a través de un trabajo profesional, colaborativo
                         y de acompañamiento, fomentar la formación integral de
@@ -213,7 +210,7 @@
                     </div>
                     <div class="col-md-6">
                       <h3 style="color: white">Visión</h3>
-                      <p>
+                      <p style="text-align: justify">
                         Para el año 2027, la institución educativa será
                         reconocida por formar personas críticas, creativas y
                         emocionalmente equilibradas, con un profundo
@@ -240,14 +237,14 @@
                     </div>
                     <div class="col-md-6">
                       <h3 style="color: white">Simbolos</h3>
-                      <p>
+                      <p style="text-align: justify">
                         <strong>La Bandera:</strong> Es de color beige,
                         simbolizando la transparencia y claridad en los procesos
                         pedagógicos, así como un actuar basado en la tolerancia
                         y el respeto. En el centro lleva el escudo de la
                         institución.
                       </p>
-                      <p>
+                      <p style="text-align: justify">
                         <strong>El Escudo:</strong> Tiene una forma hexagonal
                         sobre una base circular que contiene los valores
                         institucionales. En el centro, un círculo más pequeño
@@ -271,8 +268,8 @@
       </div>
     </section>
 
-    <!-- Sección de noticias -->
-    <section class="section coming-soon" data-section="section3">
+    <!-- Sección de eventos -->
+    <section class="section coming-soon" id="eventos" data-section="eventos">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -314,7 +311,7 @@
                       src="assets/noticias/UNIFORME INSTITUCIONAL.jpeg"
                       class="d-block w-100"
                       alt="Uniforme Institucional"
-                      style="height: 500px; object-fit: cover"
+                      style="height: 400px; object-fit: cover"
                     />
                   </div>
                   <div class="carousel-item">
@@ -322,7 +319,7 @@
                       src="assets/noticias/ACTIVIDAD CINE.jpeg"
                       class="d-block w-100"
                       alt="Cine para todos"
-                      style="height: 500px; object-fit: cover"
+                      style="height: 400px; object-fit: cover"
                     />
                   </div>
                   <div class="carousel-item">
@@ -330,7 +327,7 @@
                       src="assets/noticias/Capacitacion gestores.jpeg"
                       class="d-block w-100"
                       alt="Gestores ambientales I.E.Compartir"
-                      style="height: 500px; object-fit: cover"
+                      style="height: 400px; object-fit: cover"
                     />
                   </div>
                 </div>
@@ -366,7 +363,11 @@
     </section>
 
     <!-- Sección Institucional -->
-    <section class="section courses" data-section="section4">
+    <section
+      class="section courses"
+      id="institucional"
+      data-section="institucional"
+    >
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
@@ -476,8 +477,8 @@
       </div>
     </section>
 
-    <!-- Sección de contacto -->
-    <section class="section contact" data-section="section6">
+    <!-- Sección de ubicación -->
+    <section class="section contact" id="ubicacion" data-section="ubicacion">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

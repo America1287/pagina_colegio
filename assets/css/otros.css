@@ -1,4 +1,40 @@
+.nombre {
+  font-size: large;
+  display: block;
+  height: auto;
+  width: 70%;
+}
+
 .escudo {
   position: relative;
-  margin-left: 1em;
+  margin: 2rem;
+  padding: auto;
+  width: 100px;
 }
+
+.accordion-button {
+  background-color: #fc3;
+  color: whitesmoke;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.071);
+  font-weight: 800;
+}
+
+.accordion-button:hover {
+  background-color: rgb(255, 192, 1);
+}
+
+.accordion-body h5 {
+  text-align: left;
+}
+
+.dropdown {
+  margin: 0rem 0.5rem;
+}
+
+/* @media (max-width: 700px) {
+  .nombre {
+    font-size: normal;
+  }
+} */
+
+/* background-color: rgba(22, 34, 57, 0.95); */

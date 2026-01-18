@@ -40,26 +40,24 @@
   <body>
     <header class="main-header clearfix" role="header">
       <div class="logo">
-        <a href="#"><em>Institucion Educativa</em> Compartir</a>
+        <a class="nombre" id="header" href="#"
+          ><em>Institucion Educativa</em> Compartir</a
+        >
       </div>
-      <img
-        class="escudo"
-        src="assets/images/Imagen final.PNG"
-        width="50"
-        alt=""
-      />
+
       <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
       <nav id="menu" class="main-nav" role="navigation">
         <ul class="main-menu">
           <li><a href="#section1">Inicio</a></li>
-          <li><a href="#section3">Noticias</a></li>
+          <li><a href="#section3">Eventos</a></li>
           <li><a href="#section4">Institucional</a></li>
-          <li><a href="#section6">Contacto</a></li>
-          <li><a href="recreo.html">Sistema RECREO</a></li>
+          <li><a href="#section6">Ubicación</a></li>
+          <li><a href="...">Sistema RECREO</a></li>
         </ul>
       </nav>
     </header>
 
+    <!-- ***** Banner ***** -->
     <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
         <source
@@ -70,8 +68,15 @@
 
       <div class="video-overlay header-text">
         <div class="caption">
+          <img class="escudo" src="assets/images/Imagen final.PNG" alt="" />
+
           <h6>"Construyendo calidad con eficiencia"</h6>
           <h2><em>Nuestro</em> Colegio</h2>
+          <div class="main-button">
+            <div class="scroll-to-section">
+              <a href="recreo.html">Descubre más</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -7,17 +7,7 @@ https://templatemo.com/tm-557-grad-school
 */
 
 @import url(fontawesome.css);
-@import url(
-  "<link href="https://fonts.googleapis.com/css?family=Montserrat:100,
-  200,
-  300,
-  400,
-  500,
-  600,
-  700,
-  800,
-  900" rel="stylesheet">"
-);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -192,18 +182,18 @@ a.menu-link {
 
 .main-header .logo {
   float: left;
-  line-height: 80px;
-  padding-left: 60px;
+  padding-left: 2rem;
+  padding-top: 1rem;
 }
 
 .main-header .logo a {
-  font-size: 36px;
   text-transform: uppercase;
   font-weight: 800;
   color: #fff;
 }
 .main-header .logo a em {
   font-style: normal;
+  font-size: small;
   color: #f5a425;
 }
 
@@ -576,8 +566,8 @@ section.why-us {
   display: block;
   margin-bottom: 0.75em;
 }
-#tabs ul .ui-tabs-active {
-}
+/* #tabs ul .ui-tabs-active {
+} */
 #tabs ul .ui-tabs-active a {
   color: #f5a425;
 }
@@ -853,7 +843,7 @@ section.courses .item .down-content img {
 }
 
 section.courses .item .down-content .text-button-pay {
-  float: right;
+  /* float: right; */
   display: inline-block;
   margin-top: -30px;
 }
@@ -864,7 +854,7 @@ section.courses .item .down-content .text-button-pay a {
 }
 
 section.courses .item .down-content .text-button-free {
-  float: right;
+  /* float: right; */
   display: inline-block;
   margin-top: -30px;
 }
@@ -1024,7 +1014,7 @@ section.video .left-content .main-button {
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
 }
 
 .mfp-container {
@@ -1137,7 +1127,7 @@ button.mfp-arrow {
   cursor: pointer;
   background: transparent;
   border: 0;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   display: block;
   outline: none;
   padding: 0;
@@ -1583,9 +1573,9 @@ footer p a:hover {
   .main-menu {
     padding-right: 0 !important;
   }
-  .main-header .logo {
+  /* .main-header .logo {
     line-height: 73px;
-  }
+  } */
   .main-menu li {
     display: block;
     line-height: 1;
